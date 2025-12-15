@@ -1032,7 +1032,10 @@ class _ChatRoomPremiumState extends State<ChatRoomPremium>
 
   void _sendVoiceMessage() {
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('🎤 Voice message sẽ được cập nhật!')),
+      const SnackBar(
+        content: Text('🎤 Voice message đang được phát triển!'),
+        backgroundColor: Colors.orange,
+      ),
     );
   }
 

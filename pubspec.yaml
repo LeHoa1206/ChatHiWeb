@@ -51,7 +51,6 @@ dependencies:
   flutter_slidable: ^3.1.1
   
   # Audio & Video - ĐỈNH CAO
-  record: ^5.1.2
   audioplayers: ^6.1.0
   video_player: ^2.9.1
   
